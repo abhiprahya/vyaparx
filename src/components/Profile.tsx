@@ -19,11 +19,11 @@ export default function Profile() {
   const { language } = useStore();
   const [isEditing, setIsEditing] = useState(false);
   const [profileData, setProfileData] = useState({
-    name: 'John Doe',
-    email: 'john.doe@example.com',
+    name: 'Abhijeet',
+    email: 'pabhibhar@gmail.com',
     phone: '+91 98765 43210',
     address: 'Mumbai, Maharashtra, India',
-    businessName: 'John\'s General Store',
+    businessName: 'Abhijeet\'s General Store',
     gstNumber: '27AAAAA0000A1Z5',
     joinDate: '2024-01-15'
   });

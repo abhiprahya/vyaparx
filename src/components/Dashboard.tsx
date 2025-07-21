@@ -115,7 +115,7 @@ export default function Dashboard() {
       {/* Welcome Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-6 text-white">
         <h1 className="text-2xl font-bold mb-2">
-          {language === 'en' ? 'Welcome back, John!' : 'वापस स्वागत है, जॉन!'}
+          {language === 'en' ? 'Welcome back, Abhijeet!' : 'वापस स्वागत है, जॉन!'}
         </h1>
         <p className="text-blue-100">
           {language === 'en' 
